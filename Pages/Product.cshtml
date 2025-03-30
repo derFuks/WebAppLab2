@@ -1,0 +1,20 @@
+﻿@page
+@model WebAppLab2.Pages.ProductModel
+@{
+    var message = TempData["Message"] as string;
+}
+
+<form method="post">
+    <label>Название товара</label><br />
+    <input type="text" name="Product.Name" /><br />
+
+    <label>Цена</label><br />
+    <input type="number" name="Product.Price" /><br /><br />
+
+    <input type="submit" value="Сохранить" />
+</form>
+
+@if (!string.IsNullOrEmpty(message))
+{
+    <p><strong>@message</strong></p>
+}

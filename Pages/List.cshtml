@@ -1,0 +1,25 @@
+﻿@page
+@model WebAppLab2.Pages.ListModel
+
+<h3>Список товаров</h3>
+
+@if (Model.Products.Count == 0)
+{
+    <p>Список пуст</p>
+}
+else
+{
+    <table border="1" cellpadding="5">
+        <tr>
+            <th>Название</th>
+            <th>Цена</th>
+        </tr>
+        @foreach (var product in Model.Products)
+        {
+            <tr>
+                <td>@product.Name</td>
+                <td>@product.Price</td>
+            </tr>
+        }
+    </table>
+}

@@ -28,8 +28,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/isankaraev/WebAppLab2/Pages/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/isankaraev/WebAppLab2/Pages/Message.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTWVzc2FnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/isankaraev/WebAppLab2/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/isankaraev/WebAppLab2/Pages/Product.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJvZHVjdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/isankaraev/WebAppLab2/Pages/Shared/_ValidationScriptsPartial.cshtml]

@@ -1,0 +1,13 @@
+﻿@page
+@model WebAppLab2.Pages.MessageModel
+
+<h3>Результат:</h3>
+
+@if (!string.IsNullOrEmpty(Model.Message))
+{
+    <p><strong>@Model.Message</strong></p>
+}
+else
+{
+    <p><em>Нет сообщения.</em></p>
+}
